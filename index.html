@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+    <title>Vidya Gaem</title>
+</head>
+
+<body>
+    <div class="site-header initial">
+        <img src="logo.png" alt="site logo">
+        <h1>Vidya Gaem</h1>
+    </div>
+
+    <div class="site-divs content">
+        <div class="all-divs">
+            <div class="square">
+                <img src="mario_PNG38.png" alt="mario logo">
+                <h3>Mario</h3>
+                <button onclick="mario.atk(yoshi)" class="btn" name="attack">Attack</button>
+                <hr>
+                <div id="Mario"></div>
+            </div>
+            <div class="square">
+                <img src="250px-Yoshi_SSBU.png" alt="yoshi logo">
+                <h3>Yoshi</h3>
+                <button onclick="yoshi.atk(mario)" class="btn" name="attack">Attack</button>
+                <hr>
+                <div id="Yoshi"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Transform content" id="console">
+
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            <p>All rights reserved &copy; Angelo Totanes</p>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+</body>
+
+</html>
